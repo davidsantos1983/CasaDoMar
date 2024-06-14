@@ -19,7 +19,8 @@ body {
 }
 
 /* Header and footer styles */
-.header, .footer {
+.header,
+.footer {
     background-color: #f8f8f8;
     text-align: center;
     padding: 1rem 0;
@@ -50,14 +51,36 @@ body {
 
 .carousel-container {
     display: flex;
+    justify-content: center; /* Center elements horizontally */
+    align-items: center; /* Center elements vertically */
     overflow-x: auto;
     gap: 1rem;
     padding: 1rem 0;
 }
 
-.carousel-container img {
-    max-width: 100%;
-    margin: 0 0.5rem;
+.image-container {
+    position: relative; /* Allows positioning of text over the image */
+    width: 20.33%;
+    aspect-ratio: 1 / 1; /* Ensures the image is square */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+    border-radius: 10%; /* Smoother, semi-circular borders */
+}
+
+.image-text {
+    position: relative; /* Positions the text over the image */
+    bottom: 10px; /* Adjust this value to position the text */
+    left: 50%; /* Centers the text horizontally */
+    transform: translateX(-50%); /* Centers the text horizontally */
+    color: black; /* Text color */
+    padding: 0.5rem; /* Adds some padding around the text */
+    border-radius: 5px; /* Rounds the corners of the text background */
+    margin-top: 10px;
+    text-align: center; /* Centers the text within its container */
 }
 
 /* Product list styles */
