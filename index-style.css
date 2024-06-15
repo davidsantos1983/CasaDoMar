@@ -1,7 +1,8 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    background-color: aqua;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
 }
