@@ -25,6 +25,8 @@
    
 ## Color Palette
 - The colors to be used in the design should be added here
+  1. https://www.colorhunt.co/palette/ecf9fffffbebffe7ccf8cba6
+  2. https://www.colorhunt.co/palette/dbd0c0faeee0f9e4c8f9cf93
 
 ## Contents
 - Any pictures or any other contents related to the website theme should be added to the resources folder.
