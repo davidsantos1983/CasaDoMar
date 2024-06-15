@@ -6,7 +6,12 @@
 - Clone the repository '''git clone https://github.com/davidsantos1983/CasaDoMar.git'''
 - Open a new branch to implement the feature with the following naming convention '''git checkout -b CASADOMAR/feature-i-am-implementing'''
 - Add and commit your work to the local branch '''git add .''' '''git commit -m "implemented something in this commit"'''
-- Push to the respective remote branch '''git push origin CASADOMAR/feature-i-am-implementing'''
+- Make sure your working branch is always ahed of main:
+  - '''git checkout main'''
+  - '''git pull origin main'''
+  - '''git checkout CASADOMAR/feature-i-am-implementing'''
+  - '''git rebase main'''
+- Push to the respective remote branch '''git push -f origin CASADOMAR/feature-i-am-implementing'''
 - Open a Pull Request on github UI and wait for approval to merge the code into the main branch.
 
 ## What is this repo about?
