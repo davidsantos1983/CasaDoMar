@@ -11,6 +11,9 @@
 
 ## What is this repo about?
 - This is a website to promote a wonderful guesthouse located in Sesimbra.
+  
+##
+- Guides for desing and inspiration found here https://codingheroes.io/resources/
 
 ## Color Palette
 - The colors to be used in the design should be added here
