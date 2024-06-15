@@ -19,7 +19,10 @@
   
 ##
 - Guides for desing and inspiration found here https://codingheroes.io/resources/
-
+1. https://www.awwwards.com/sites/casa-di-legna
+2. https://www.awwwards.com/sites/alta-house-begur-spain
+3. https://land-book.com/websites/6462-voici-airbnb-plus
+   
 ## Color Palette
 - The colors to be used in the design should be added here
 
