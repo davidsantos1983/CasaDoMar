@@ -17,7 +17,7 @@
 ## What is this repo about?
 - This is a website to promote a wonderful guesthouse located in Sesimbra.
   
-##
+## Design Ideas
 - Guides for desing and inspiration found here https://codingheroes.io/resources/
 1. https://www.awwwards.com/sites/casa-di-legna
 2. https://www.awwwards.com/sites/alta-house-begur-spain
@@ -30,3 +30,4 @@
 
 ## Contents
 - Any pictures or any other contents related to the website theme should be added to the resources folder.
+- Once an image is selected to be used in the webpage it should be moved to the proper folder inside the '''img''' folder. For example, we decide to have a caroussel with 5 pictures, these pics should be renamed to something that describes their usage and moved to a folder called '''caroussel''' inside the '''img''' folder.
